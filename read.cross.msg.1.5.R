@@ -11,10 +11,10 @@ read.cross.msg <- function(file.csv,ancfile.par2, phenofile, ancfile.par1=NULL) 
 
 ##USAGE
 ##bc e.g.
-##x <- read.cross.msg("ancestry-probs-par2.csv","ancestry-probs-par2.tsv.pulled.converted.thinned","san.pheno.csv")
+##x <- read.cross.msg("ancestry-probs-par2.tsv.sorted.csv","ancestry-probs-par2.tsv.sorted.pulled.converted.thinned","san.pheno.csv")
 ##sx<-scanone(x,method="hk")
 ##f2 e.g.
-##x <- read.cross.msg("ancestry-probs-par2.csv","ancestry-probs-par2.tsv.pulled.converted.thinned.f2_rqtl","san.pheno.csv",ancfile.par1="ancestry-probs-par1.tsv.pulled.converted.thinned.f2_rqtl")
+##x <- read.cross.msg("ancestry-probs-par2.tsv.sorted.csv","ancestry-probs-par2.tsv.sorted.pulled.converted.thinned.f2_rqtl","DE14_22spheno.csv.sorted",ancfile.par1="ancestry-probs-par1.tsv.sorted.pulled.converted.thinned.f2_rqtl")
 ##sx<-scanone(x,method="hk")
 
 
